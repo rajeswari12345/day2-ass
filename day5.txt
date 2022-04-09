@@ -1,0 +1,8 @@
+#!/bin/bash = x
+is present = 1
+random check=$((RANDOM%2));
+If [ &ispresent -eq $random check ];
+echo”employee is present” 
+else
+echo”employee is absent”
+fi
